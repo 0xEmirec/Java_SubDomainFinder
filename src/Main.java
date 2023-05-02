@@ -17,9 +17,8 @@ public class Main{
             }
         }else System.out.println("Hedef adresi yanlış girdiniz!");
 
-        System.out.println("Subdomain List : ");
-        targetNesne.getSubDomainListt();
-        System.out.println(targetNesne.getSubDomainSayi());
+        
+        System.out.println("Subdomain Sayisi : "+targetNesne.getSubDomainSayi());
         targetNesne.dosyaYaz();
     }
     public static void start(){
